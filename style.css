@@ -29,6 +29,27 @@ header{
 .inside{
     flex:1;
 }
+#features{
+    background: rgba(245, 245, 245, 1);
+    padding: 18px 66px 28px 66px;
+}
+#features h1{
+    text-align: center;
+}
+#feature-container{
+    display: flex;
+}
+.feature{
+    flex: 1;
+    padding: 18px;
+}
+.feature div{
+    margin: 12px auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+}
 footer{
     padding:10px 18%;
     background: rgba(40, 40, 40, 1);
