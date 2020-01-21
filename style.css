@@ -30,8 +30,11 @@ header{
     flex:1;
 }
 #features{
-    background: rgba(245, 245, 245, 1);
+    background: linear-gradient(to right,rgba(245, 245, 245, 0.99),rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.99)), fixed url(img/header-main-bg.jpg);
     padding: 18px 66px 28px 66px;
+    line-height: 1.2;
+    word-spacing: 0.08rem;
+    letter-spacing: 0.02rem;
 }
 #features h1{
     text-align: center;
@@ -42,13 +45,19 @@ header{
 .feature{
     flex: 1;
     padding: 18px;
+    text-align: justify;
+    color: rgb(75, 75, 75);
+}
+.feature h4{
+    text-align: center;
+    color: rgb(25, 25, 25);
 }
 .feature div{
     margin: 12px auto;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
 }
 footer{
     padding:10px 18%;
