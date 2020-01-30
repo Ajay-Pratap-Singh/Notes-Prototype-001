@@ -13,6 +13,22 @@ header{
     color: white;
     font-family: cursive;
 }
+.notes{
+    padding: 18px 0 28px 54px;
+}
+.notes:nth-child(odd){
+    background: rgb(245, 245, 245);
+}
+.notes>h1{
+    margin-left: -18px;
+}
+#subjects-list{
+    list-style: none;
+    padding: 0;
+}
+.subject{
+    padding: 5px 0 8px 0;
+}
 footer{
     padding:10px 18%;
     background: rgba(40, 40, 40, 1);
