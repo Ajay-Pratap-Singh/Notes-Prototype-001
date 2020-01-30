@@ -20,8 +20,8 @@
             <li>
                 <label class="inside" for="university">University Name:</label>
                 <select class="inside" name="uni_name" id="university">
-                    <option value="DCRUST">DCRUST</option>
-                    <option value="MDU">MDU</option>
+                    <option value="dcrust">DCRUST</option>
+                    <option value="mdu">MDU</option>
                 </select>
             </li>
             <!-- <li>
@@ -34,22 +34,22 @@
             <li>
                 <label class="inside" for="course">Course Name:</label>
                 <select class="inside" id="course" name="course_name">
-                    <option value="BBA">BBA</option>
-                    <option value="MBA">MBA</option>
+                    <option value="bba">BBA</option>
+                    <option value="mba">MBA</option>
                 </select>
             </li>
             <li>
                 <label class="inside" for="sem">Semester:</label>
                 <select class="inside" id="sem" name="semester">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
+                    <option value="sem-1">1</option>
+                    <option value="sem-2">2</option>
+                    <option value="sem-3">3</option>
+                    <option value="sem-4">4</option>
                 </select>
             </li>
             <li>
                 <span class="inside"></span>
-                <button class="inside">View Notes</button>
+                <button class="inside" onclick="window.location.href = 'https://apsingh.tk/Notes-Prototype-001'+'/'+document.getElementById('university').options[document.getElementById('university').selectedIndex].value+'/'+document.getElementById('course').options[document.getElementById('course').selectedIndex].value+'/'+document.getElementById('sem').options[document.getElementById('sem').selectedIndex].value;">View Notes</button>
                 <span class="inside"></span>
             </li>
         </ul>
