@@ -14,13 +14,13 @@ header{
     font-family: cursive;
 }
 .notes{
-    padding: 18px 0 28px 54px;
+    padding: 18px 0 28px 72px;
 }
 .notes:nth-child(odd){
     background: rgb(245, 245, 245);
 }
 .notes>h1{
-    margin-left: -18px;
+    margin-left: -36px;
 }
 #subjects-list{
     list-style: none;
