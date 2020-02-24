@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    padding: 0;
+    margin:0;
+    background: #333;
+    line-height: 1.45;;
+}
+div{
+    background: white;
+    width:70%;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+h1{
+    text-align: center;
+    margin:50px auto 80px auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 18px auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(23, 154, 187);
+    text-decoration: underline;
+}
