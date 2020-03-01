@@ -1,7 +1,7 @@
 import PyPDF2
 pdfFileObj=open(r'C:\Users\dell\Desktop\BBA_18.pdf','rb')
 pdfReader=PyPDF2.PdfFileReader(pdfFileObj)
-page8=pdfReader.getPage(7)
+page8=pdfReader.getPage(19)
 st=page8.extractText()
 stN=st.replace('\n','')
 syl=stN[stN.index('Unit-I:'):stN.index('Suggested Readings:')]
@@ -30,7 +30,7 @@ out=''
 
 for i in range(len(units)):
     units[i]=str(units[i]).replace(']','').replace('[','')
-    out+='<li><u><strong>Unit-I:</strong></u>'units[i].replace("'",'')+'</li>\n\n'
+    out+='<li><u><strong>Unit-I:</strong></u>'+units[i].replace("'",'')+'</li>\n\n'
     
 f.write(out)
 f.close()
