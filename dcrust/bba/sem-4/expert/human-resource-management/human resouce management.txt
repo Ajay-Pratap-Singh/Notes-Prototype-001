@@ -1,0 +1,14 @@
+<body>
+    <div>
+        <h1>Human Resource Management</h1>
+        <ul>
+            <li><u><strong>Unit-I:</strong></u> <a href="Human-Resource-Management.pdf" target="_blank">Human Resource Management: meaning, definition, objectives and scope of HRM</a>, <a href="evolution-of-HRM.pdf" target="_blank">evolution of HRM</a>, <a href="HRM-functions.pdf" target="_blank">HRM functions</a>, <a href="role-of-personnel-manager-and-HR-manager.pdf" target="_blank">role of personnel manager and HR manager</a>, <a href="qualities-of-HR-Manager.pdf" target="_blank">qualities of HR Manager</a></li>
+
+            <li><u><strong>Unit-II:</strong></u> <a href="Job-analysis.pdf" target="_blank">Job analysis: definition, process</a>, <a href="methods-of-job-analysis.pdf" target="_blank">methods of job analysis</a>, <a href="Human-Resource-planning.pdf" target="_blank">Human Resource planning: concept</a>, <a href="Objectives-and-importance.pdf" target="_blank">objectives and importance of HRP</a>, <a href="process-of-HRP.pdf" target="_blank">process of HRP</a>, <a href="Recruitment.pdf" target="_blank">Recruitment: definition, objectives and sources of recruitment</a>, <a href="Selection.pdf" target="_blank">Selection: introduction, selection process</a>, <a href="difference-between-recruitment-and-selection.pdf" target="_blank"> difference between recruitment and selection</a></li>
+
+            <li><u><strong>Unit-III:</strong></u> <a href="coming-soon.pdf" target="_blank">Training and Development: meaning and importance</a>, <a href="coming-soon.pdf" target="_blank">process and methods of training</a>, <a href="coming-soon.pdf" target="_blank">process and methods of training</a>, <a href="coming-soon.pdf" target="_blank">Career Planning: Introduction and Stages</a>, <a href="coming-soon.pdf" target="_blank">Career Planning process</a>, <a href="coming-soon.pdf" target="_blank">Career management model</a></li>
+
+            <li><u><strong>Unit-IV:</strong></u> <a href="coming-soon.pdf" target="_blank">Performance Appraisal: meaning and purpose</a>, <a href="coming-soon.pdf" target="_blank">process and methods of performance appraisal</a>, <a href="coming-soon.pdf" target="_blank">Potential appraisal</a>, <a href="coming-soon.pdf" target="_blank">Compensation: introduction</a>, <a href="coming-soon.pdf" target="_blank">types and theories of compensation</a>, <a href="coming-soon.pdf" target="_blank">HRIS (Human Resource information system)</a>, <a href="coming-soon.pdf" target="_blank">Human Resource Accounting</a></li>
+        </ul>
+    </div>
+</body>

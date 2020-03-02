@@ -1,0 +1,14 @@
+<body>
+    <div>
+        <h1>Business Law</h1>
+        <ul>
+            <li><u><strong>Unit-I:</strong></u> <a href="The-Indian-Contract-Act.pdf" target="_blank">The Indian Contract Act: Nature and Kind of a valid Contracts</a>, <a href="Offer-and-acceptance.pdf" target="_blank">Offer and acceptance</a>, <a href="Consideration.pdf" target="_blank">Consideration</a>, <a href="Contractual-capacity-of-parties.pdf" target="_blank">Contractual capacity of parties</a>, <a href="Free-consent-of-parties.pdf" target="_blank">Free consent of parties</a>, <a href="void-agreements.pdf" target="_blank">void agreements</a>, <a href="performance-of-contracts.pdf" target="_blank">performance of contracts</a>, <a href="breach-of-contract-and-discharge-of-contracts.pdf" target="_blank">breach of contract and discharge of contracts</a>, <a href="Quasi-Contracts.pdf" target="_blank">Quasi-Contracts</a></li>
+
+            <li><u><strong>Unit-II:</strong></u> <a href="The-Sale-of-Goods-Act.pdf" target="_blank">The Sale of Goods Act: Contract for Sale of Goods- Meaning and Essentials of a Contract of Sale</a>, <a href="Formalities-of-a-Contract-of-Sale.pdf" target="_blank">Formalities of a Contract of Sale</a>, <a href="coming-soon.pdf" target="_blank">Provisions relating to conditions and Warranties</a>, <a href="coming-soon.pdf" target="_blank">Provisions relating to transfer of property or ownership</a>, <a href="Provisions-relating-to-performance-of-Contract-of-Sale.pdf" target="_blank">Provisions relating to performance of Contract of Sale - Rights of Unpaid Seller</a>, <a href="Rules-as-to-delivery-of-goods.pdf" target="_blank">Rules as to delivery of goods</a></li>
+
+            <li><u><strong>Unit-III:</strong></u> <a href="coming-soon.pdf" target="_blank">Negotiable Instruments - Meaning, Characteristics, Types, Parties </a>, <a href="coming-soon.pdf" target="_blank">Holder and holder in Due Course</a>, <a href="coming-soon.pdf" target="_blank">Negotiation and Types of Endorsements</a>, <a href="coming-soon.pdf" target="_blank">Dishonor of Negotiable Instrument - Noting and Protest</a>, <a href="coming-soon.pdf" target="_blank">Liability of parties on Negotiable Instrument</a></li>
+
+            <li><u><strong>Unit-IV:</strong></u> <a href="coming-soon.pdf" target="_blank">Foreign Exchange Management Act, 1999</a>, <a href="coming-soon.pdf" target="_blank">Rules: Objective and Applicability of the Act</a>, <a href="coming-soon.pdf" target="_blank">FEMA Vs FERA</a>, <a href="coming-soon.pdf" target="_blank">Basic Terminology</a>, <a href="coming-soon.pdf" target="_blank">Regulation and Management</a>, <a href="coming-soon.pdf" target="_blank">Digital Signature - Digital Signature Certificate</a>, <a href="coming-soon.pdf" target="_blank">Electronic Governance, Electronic Records, Certifying Authorities, Penalty & Adjudication</a></li>
+        </ul>
+    </div>
+</body>

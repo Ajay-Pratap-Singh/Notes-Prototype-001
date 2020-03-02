@@ -1,0 +1,14 @@
+<body>
+    <div>
+        <h1>Fundamentals of Insurance</h1>
+        <ul>
+            <li><u><strong>Unit-I:</strong></u> <a href="Insurance.pdf" target="_blank">Insurance: Meaning, scope and principles of insurance</a>, <a href="types-of-insurance.pdf" target="_blank">types of insurance</a>, <a href="coming-soon.pdf" target="_blank">Re-insurance</a>, <a href="Underwriting-in-insurance.pdf" target="_blank">Underwriting in insurance</a>, <a href="factors-affecting-the-growth-of-insurance-sector-in-India.pdf" target="_blank">factors affecting the growth of insurance sector in India</a>, <a href="Role-of-IRDA-as-a-regulator-on-insurance-sector-in-India.pdf" target="_blank">Role of IRDA as a regulator on insurance sector in India</a></li>
+
+            <li><u><strong>Unit-II:</strong></u> <a href="Life-Insurance.pdf" target="_blank">Life Insurance: need</a>, <a href="factors-affecting-the-need-of-life-insurance.pdf" target="_blank">factors affecting the need of life insurance</a>, <a href="Unit-linked-insurance-plan-and-traditional-plans-in-life-insurance.pdf" target="_blank">Unit-linked insurance plan and traditional plans in life insurance</a>, <a href="criteria-for-the-selection-of-life-insurance-policy.pdf" target="_blank">criteria for the selection of life insurance policy</a></li>
+
+            <li><u><strong>Unit-III:</strong></u> <a href="coming-soon.pdf" target="_blank">Health Insurance: need and types</a>, <a href="coming-soon.pdf" target="_blank">criteria for the selection health insurance policy</a>, <a href="coming-soon.pdf" target="_blank">Third Party Administration (TPA): Origin of TPA</a>, <a href="coming-soon.pdf" target="_blank">role of TPA as mediator</a>, <a href="coming-soon.pdf" target="_blank">functions of Third Party Administration</a></li>
+
+            <li><u><strong>Unit-IV:</strong></u> <a href="coming-soon.pdf" target="_blank">Pricing and Distribution Channels of Insurance Plans</a>, <a href="coming-soon.pdf" target="_blank">factors affecting the pricing of various types of insurances</a>, <a href="coming-soon.pdf" target="_blank">Online and offline mode of distribution insurance</a>, <a href="coming-soon.pdf" target="_blank">insurance brokers and agents</a>, <a href="coming-soon.pdf" target="_blank">banking outlets</a></li>
+        </ul>
+    </div>
+</body>

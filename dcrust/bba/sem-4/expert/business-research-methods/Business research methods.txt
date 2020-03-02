@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>xyzNotes.com - Business Research Methods</title>
+    <link rel="stylesheet" href="../../../../../syll-style.css">
+</head>
+<body>
+    <div>
+        <h1>Business Research Methods</h1>
+        <ul>
+            <li><u><strong>Unit-I:</strong></u> <a href="Concept-of-research.pdf" target="_blank">Introduction: Concept of research and its applications in the various functions of management</a>, <a href="Types-of-research.pdf" target="_blank">Types of research</a>, <a href="Problems-and-precautions-to-the-researcher-in-India.pdf" target="_blank">Problems and precautions to the researcher in India</a>, <a href="Process-of-research.pdf" target="_blank">Process of research: Steps involved in research process</a>, <a href="Features-of-a-good-research-study.pdf" target="_blank">Features of a good research study</a>, <a href="Identification-of-research-problem-&-formulation-of-research-hypothesis.pdf" target="_blank">Identification of research problem & formulation of research hypothesis</a></li>
+
+            <li><u><strong>Unit-II:</strong></u> <a href="Research-Design.pdf" target="_blank">Research Design</a>, <a href="coming-soon.pdf" target="_blank">Features of a good research design</a>, <a href="Exploratory-Research-Design.pdf" target="_blank">Exploratory Research Design: concept, types and uses</a>, <a href="Descriptive-Research-Designs.pdf" target="_blank">Descriptive Research Designs: concept, types and uses</a>, <a href="Experimental-Design.pdf" target="_blank">Experimental Design</a>, <a href="validity-in-experimentation.pdf" target="_blank">validity in experimentation: internal and external validity</a>, <a href="Types-of-experimental-designs.pdf" target="_blank">Types of experimental designs</a>, <a href="Concept-of-Independent-&-Dependent-variables.pdf" target="_blank">Concept of Independent & Dependent variables</a>, <a href="concomitant-variable.pdf" target="_blank">concomitant variable</a>, <a href="extraneous-variable.pdf" target="_blank">extraneous variable</a>, <a href=" Treatment.pdf" target="_blank"> Treatment</a>, <a href="Control-group.pdf" target="_blank">Control group</a>, <a href="Qualitative-and-quantitative-research.pdf" target="_blank">Qualitative and quantitative research</a></li>
+
+            <li><u><strong>Unit-III:</strong></u> <a href="coming-soon.pdf" target="_blank">Data Collection: Classification of data</a>, <a href="coming-soon.pdf" target="_blank">secondary Data: research applications of secondary data, benefits & drawbacks of secondary data, evaluation of secondary data & classification</a>, <a href="coming-soon.pdf" target="_blank">Primary source of data collection: observation, focus groups, depth interviews, content analysis, projective techniques</a>, <a href="coming-soon.pdf" target="_blank">Questionnaire: Preparation of questionnaire and schedule; types of questionnaire, questionnaire design procedure & Precautions in preparation of questionnaire</a>, <a href="coming-soon.pdf" target="_blank">Measurement & Scaling</a></li>
+
+            <li><u><strong>Unit-IV:</strong></u> <a href="coming-soon.pdf" target="_blank">Sampling considerations: Concept and sampling design</a>, <a href="coming-soon.pdf" target="_blank">Types and determination of sampling size</a>, <a href="coming-soon.pdf" target="_blank">Data processing: Data editing and coding</a>, <a href="coming-soon.pdf" target="_blank">Classification & tabulation of data</a>, <a href="coming-soon.pdf" target="_blank">Analysis of data: Coding, editing and tabulation of data</a>, <a href="coming-soon.pdf" target="_blank">various kinds of charts and diagrams used in data analysis</a>, <a href="coming-soon.pdf" target="_blank">Univariate and bivariate analysis of data</a></li>
+        </ul>
+    </div>
+</body>
+</html>

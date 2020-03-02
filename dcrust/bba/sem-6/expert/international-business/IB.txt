@@ -1,0 +1,14 @@
+<body>
+    <div>
+        <h1>International Business</h1>
+        <ul>
+            <li><u><strong>Unit-I:</strong></u> <a href="International-Business.pdf" target="_blank">International Business: Introduction and Significance</a>, <a href="Nature-and-Scope-of-International-Business.pdf" target="_blank">Nature and Scope of International Business</a>, <a href="Reasons-to-go-for-International-Business.pdf" target="_blank">Reasons to go for International Business</a>, <a href="Modes-of-Global-business.pdf" target="_blank">Modes of Global business</a>, <a href="coming-soon" target="_blank">Global Business Environment-social,cultural,economic,political and ecological factors</a></li>
+
+            <li><u><strong>Unit-II:</strong></u> <a href="Theories-of-International-Trade-Classical-country-based-theories.pdf" target="_blank">Theories of International Trade: Classical country based theories</a>, <a href="Modern-firm-based-trade-theories.pdf" target="_blank">Modern firm based trade theories</a>, <a href="coming-soon.pdf" target="_blank">International Trading Environment: Free Trade Vs Protection</a>, <a href="coming-soon.pdf" target="_blank">Tariff and Non-tariff Barriers</a>, <a href="coming-soon.pdf" target="_blank">Commodity agreements</a>, <a href="coming-soon.pdf" target="_blank">Regional economic integration</a>, <a href="coming-soon.pdf" target="_blank">Cartels</a></li>
+
+            <li><u><strong>Unit-III:</strong></u> <a href="coming-soon.pdf" target="_blank">Balance of Payment: Concept and Components of BOP</a>, <a href="coming-soon.pdf" target="_blank">Disequilibrium in BOP: Causes for disequilibrium and Methods to correct the disequilibrium in Balance of Payment</a>, <a href="coming-soon.pdf" target="_blank">Foreign Exchange Market: Nature of transactions in foreign exchange market and types of players</a>, <a href="coming-soon.pdf" target="_blank">Foreign direct investment: Types, reasons of increased FDI inflow in developing economies</a>, <a href="coming-soon.pdf" target="_blank">impact of FDI in home and host country</a></li>
+
+            <li><u><strong>Unit-IV:</strong></u> <a href="coming-soon.pdf" target="_blank">International financial institutions and liquidity: IMF, IBRD, IFC</a>, <a href="coming-soon.pdf" target="_blank">World Trade Organization: Objectives, Organization Structure and Functioning</a>, <a href="coming-soon.pdf" target="_blank">WTO and India</a>, <a href="coming-soon.pdf" target="_blank">International human resource management</a>, <a href="coming-soon.pdf" target="_blank">International marketing management</a>, <a href="coming-soon.pdf" target="_blank">Future of international business</a></li>
+        </ul>
+    </div>
+</body>
