@@ -7,16 +7,68 @@ body{
     margin:0;
 }
 header{
-    padding:28px;
-    min-height: 35vh;
-    background: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), fixed url(img/header-main-bg.jpg);
-    color: white;
-    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    padding:28px 64px;
+    background: rgba(244,238,255, 1);
+    color: #424874;
 }
-header img{
-    height: 60px;
-    border-radius: 50%;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.8);
+header span{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #353a5d;
+
+}
+header ul{
+    list-style: none;
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    margin: 0 14px;
+}
+header a{
+    text-decoration: none;
+    color:inherit;
+}
+header a:hover{
+    color:#f24a00;
+}
+.button{
+    border-radius: 8px;
+    background: #f56e33;
+    color:#fff;
+    padding: 12px 15px;
+    font-weight: normal;
+    font-size: large;
+}
+.button a{
+    text-decoration: none;
+    color:inherit;
+}
+.button:hover{
+    background: #f35c1a;
+}
+.button a:hover{
+    color:#fff;
+}
+#welcome{
+    padding:20vh 64px 80px 64px;
+    background: 90%/50% no-repeat url(img/undraw_studying_s3l7.svg),#f4eeff;
+
+}
+.heading{
+    width:36%;
+    margin: 10px 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #353a5d;
+}
+.head-content{
+    width:36%;
+    color:#424874;
+    margin: 36px 0;
+    line-height: 1.7rem;
 }
 #notes-query{
     padding: 48px;
