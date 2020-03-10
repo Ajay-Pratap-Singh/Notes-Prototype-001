@@ -18,125 +18,70 @@
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
-        <span class="button"><a href="#notes-query">Search Notes</a></span>
+        <span class="button"><a href="#search-notes">Search Notes</a></span>
     </header>
     <div id="welcome">
         <p class="heading">Welcome to Notes Guru.info</p>
         <p class="head-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nihil corrupti neque ut incidunt error sit expedita, atque aspernatur accusantium illum distinctio provident sapiente animi nam reiciendis libero ipsum soluta.</p>
-        <span class="button"><a href="#notes-query">Search Notes</a></span>
-    </div>
-    <div>
-        <ul id="notes-query">
-            <li>
-                <h2 class="inside">Search Notes:</h2>
-            </li>
-            <li>
-                <label class="inside" for="university">University Name:</label>
-                <select class="inside" name="uni_name" id="university">
-                    <option value="dcrust">DCRUST</option>
-                    <option value="mdu">MDU</option>
-                </select>
-            </li>
-            <!-- <li>
-                <label class="inside" for="college">College Name:</label>
-                <select class="inside" id="college" name="college_name">
-                    <option value="HIM">HIM</option>
-                    <option value="IITM">IITM</option>
-                </select>
-            </li> -->
-            <li>
-                <label class="inside" for="course">Course Name:</label>
-                <select class="inside" id="course" name="course_name">
-                    <option value="bba">BBA</option>
-                    <option value="mba">MBA</option>
-                </select>
-            </li>
-            <li>
-                <label class="inside" for="sem">Semester:</label>
-                <select class="inside" id="sem" name="semester">
-                    <option value="sem-2">2</option>
-                    <option value="sem-4">4</option>
-                    <option value="sem-6">6</option>
-                </select>
-            </li>
-            <li>
-                <span class="inside"></span>
-                <button class="inside" onclick="window.location.href = 'https://www.apsingh.tk/Notes-Prototype-001'+'/'+document.getElementById('university').options[document.getElementById('university').selectedIndex].value+'/'+document.getElementById('course').options[document.getElementById('course').selectedIndex].value+'/'+document.getElementById('sem').options[document.getElementById('sem').selectedIndex].value;">View Notes</button>
-                <span class="inside"></span>
-            </li>
-        </ul>
+        <span class="button"><a href="#search-notes">Search Notes</a></span>
     </div>
     <div id="features">
-        <h1>WHY US</h1>
+        <p class="heading">Why NotesGuru is Best:</p>
         <div id="feature-container">
             <span class="feature">
                 <div></div>
                     <h4>Feature Heading</h4>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+                    <p>A single platform to get all your own college notes.</p>
             </span>
             <span class="feature">
                 <div></div>
                     <h4>Feature Heading</h4>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+                    <p>Access notes of other colleges affiliated from same university.</p>
             </span>
             <span class="feature">
                 <div></div>
                     <h4>Feature Heading</h4>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+                    <p>No need to do surfing over internet for study material.</p>
             </span>
             <span class="feature">
                 <div></div>
                     <h4>Feature Heading</h4>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
-            </span>
-            <span class="feature">
-                <div></div>
-                    <h4>Feature Heading</h4>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+                    <p>More study material available with our expert notes.</p>
             </span>
         </div>
     </div>
-    <div>
-        <ul id="notes-query">
-            <li>
-                <h2 class="inside">Request Notes:</h2>
-            </li>
-            <li>
-                Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-            </li>
-            <li>
-                <label class="inside" for="university">University Name:</label>
-                <input required placeholder="University name (required)" type="text" class="inside" name="uni_name" id="university">
-            </li>
-            <li>
-                <label class="inside" for="college">College Name:</label>
-                <input placeholder="College name" type="text" class="inside" name="uni_name" id="university">
-            </li>
-            <li>
-                <label class="inside" for="course">Course Name:</label>
-                <input required placeholder="Course name e.g BBA (required)" type="text" class="inside" name="uni_name" id="university">
-            </li>
-            <li>
-                <label class="inside" for="sem">Semester:</label>
-                <input required placeholder="Semester (required)" type="text" class="inside" name="uni_name" id="university">
-            </li>
-            <li>
-                <span class="inside"></span>
-                <button class="inside">Submit Request</button>
-                <span class="inside"></span>
-            </li>
-        </ul>
+    <div id="search-notes">
+        <div class="align-right">
+            <p class="heading">Search Notes</p>
+            <p class="head-content"><p><label for="university">University Name:</label>
+            <select name="uni_name" id="university">
+                <option value="dcrust">DCRUST</option>
+                <!-- <option value="mdu">MDU</option> -->
+            </select></p>
+            <p><label for="course">Course Name:</label>
+            <select id="course" name="course_name">
+                <option value="bba">BBA</option>
+                <!-- <option value="mba">MBA</option> -->
+            </select></p>
+            <p><label for="sem">Semester:</label>
+            <select id="sem" name="semester">
+                <option value="sem-2">2</option>
+                <option value="sem-4">4</option>
+                <option value="sem-6">6</option>
+            </select></p>
+            <button class="button" onclick="window.location.href = 'https://www.apsingh.tk/Notes-Prototype-001'+'/'+document.getElementById('university').options[document.getElementById('university').selectedIndex].value+'/'+document.getElementById('course').options[document.getElementById('course').selectedIndex].value+'/'+document.getElementById('sem').options[document.getElementById('sem').selectedIndex].value;">View Notes</button></p>
+        </div>
     </div>
     <footer>
         <span>
             <h3>Social Links:</h3>
-            <span>1</span>
+            <span><a href="https://www.facebook.com/notesguru01/">Facebook</a></span>
             <span>2</span>
             <span>3</span>
         </span>
         <span>
             <h3>Contact Us-</h3>
-            <p>notesguru.com</p>
+            <p>notesguru.info</p>
             <p>+91 8221040744</p>
             <p>notesguru01@gmail.com</p>
         </span>

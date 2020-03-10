@@ -41,6 +41,7 @@ header a:hover{
     padding: 12px 15px;
     font-weight: normal;
     font-size: large;
+    border: none;
 }
 .button a{
     text-decoration: none;
@@ -48,6 +49,7 @@ header a:hover{
 }
 .button:hover{
     background: #f35c1a;
+    cursor: pointer;
 }
 .button a:hover{
     color:#fff;
@@ -55,7 +57,6 @@ header a:hover{
 #welcome{
     padding:20vh 64px 80px 64px;
     background: 90%/50% no-repeat url(img/undraw_studying_s3l7.svg),#f4eeff;
-
 }
 .heading{
     width:36%;
@@ -70,26 +71,8 @@ header a:hover{
     margin: 36px 0;
     line-height: 1.7rem;
 }
-#notes-query{
-    padding: 48px;
-    margin: 0;
-    list-style-type: none;
-}
-#notes-query li{
-    padding: 18px;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 50%;
-}
-#notes-query h2{
-    margin: 0;
-}
-.inside{
-    flex:1;
-}
 #features{
-    background: linear-gradient(to right,rgba(245, 245, 245, 0.99),rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.99)), fixed url(img/header-main-bg.jpg);
-    padding: 18px 66px 28px 66px;
+    padding: 64px 64px 24px 64px;
     line-height: 1.2;
     word-spacing: 0.08rem;
     letter-spacing: 0.02rem;
@@ -100,10 +83,11 @@ header a:hover{
 #feature-container{
     display: flex;
     flex-wrap: wrap;
+    padding:32px 0;
 }
 .feature{
     flex: 1;
-    padding: 18px;
+    padding: 38px;
     text-align: justify;
     color: rgb(75, 75, 75);
 }
@@ -112,11 +96,41 @@ header a:hover{
     color: rgb(25, 25, 25);
 }
 .feature div{
+    background: center url(img/header-main-bg.jpg),rgba(0,0,0,0.5);
     margin: 12px auto;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.8);
+}
+#search-notes{
+    height: 100vh;
+    background: 10%/30% no-repeat url(img/searching_duff.svg),#f4eeff;
+    padding:20vh 64px 80px 64px;
+    color: #353a5d;
+}
+.align-right{
+    position: relative;
+    left:45vw;
+    width: max-content;
+}
+.align-right .heading{
+    width: unset;
+}
+label{
+    display: inline-block;
+    width:12rem;
+}
+select{
+    padding: 8px 18px;
+    border-radius: 4px;
+    border: 1px solid #353a5d;
+    color: #424874;
+    width: 10rem;
+    text-align: center;
+}
+button{
+    margin-top: 2rem;
+    width: 22rem;
 }
 footer{
     padding:10px 18%;
@@ -125,14 +139,13 @@ footer{
     display: flex;
     flex-direction: row-reverse;
 }
+footer a{
+    color: #fff;
+}
 footer span{
     padding-right: 28px;
 }
 @media all and (max-width : 700px){
-    #notes-query li{
-        max-width: none;
-        /* flex-direction: column; */
-    }
     #feature-container{
         flex-direction: column;
     }
