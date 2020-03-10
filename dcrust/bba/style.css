@@ -7,43 +7,84 @@ body{
     margin:0;
 }
 header{
-    padding:28px;
-    min-height: 35vh;
-    background: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), fixed url(../../img/header-main-bg.jpg);
-    color: white;
-    font-family: cursive;
-}
-#page-heading{
-    text-align: center;
-    text-decoration: underline;
-}
-#main-container{
     display: flex;
+    justify-content: space-between;
+    padding:28px 64px;
+    background: rgba(244,238,255, 1);
+    color: #424874;
 }
-.notes{
-    flex: 1;
-    padding: 18px 18px 28px 72px;
+header span{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #353a5d;
+
 }
-.row-full{
-    display: flex;
-}
-.row-full .inside{
-    flex:1;
-    margin-right:18px;
-}
-#our-expert{
-    background: rgb(245, 245, 245);    
-    /* border-right: 1px solid black; */
-}
-.notes>h2{
-    margin-left: -36px;
-}
-#subjects-list{
+header ul{
     list-style: none;
-    padding: 0;
+    display: inline-block;
 }
-.subject{
-    padding: 5px 0 8px 0;
+header li{
+    display: inline-block;
+    margin: 0 14px;
+}
+header a{
+    text-decoration: none;
+    color:inherit;
+}
+header a:hover{
+    color:#f24a00;
+}
+.button{
+    border-radius: 8px;
+    background: #f56e33;
+    color:#fff;
+    padding: 12px 15px;
+    font-weight: normal;
+    font-size: large;
+    border: none;
+}
+.button a{
+    text-decoration: none;
+    color:inherit;
+}
+.button:hover{
+    background: #f35c1a;
+    cursor: pointer;
+}
+.button a:hover{
+    color:#fff;
+}
+#welcome{
+    padding:20vh 64px 80px 64px;
+    background: 90%/50% no-repeat url(../../img/undraw_studying_s3l7.svg),#f4eeff;
+}
+#welcome ul{
+    padding: unset;
+    list-style: none;
+    font-size: large;
+}
+#welcome li{
+    margin:10px 0;
+}
+#welcome a{
+    text-decoration: underline;
+    color: #353a5d;
+}
+#welcome a:hover{
+    color:#f24a00;
+}
+.heading{
+    width:36%;
+    margin: 10px 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #353a5d;
+}
+.head-content{
+    width:36%;
+    color:#424874;
+    margin: 36px 0;
+    line-height: 1.7rem;
 }
 footer{
     padding:10px 18%;
@@ -52,11 +93,9 @@ footer{
     display: flex;
     flex-direction: row-reverse;
 }
+footer a{
+    color: #fff;
+}
 footer span{
     padding-right: 28px;
-}
-@media all and (max-width : 700px){
-    #main-container{
-        flex-direction: column;
-    }
 }
