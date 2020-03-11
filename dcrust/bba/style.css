@@ -171,6 +171,7 @@ footer .button{
         flex-direction: column;
     }
     footer{
+        padding:5rem;
         flex-direction: column;
         text-align: center;
     }
