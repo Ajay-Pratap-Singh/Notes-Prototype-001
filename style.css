@@ -9,7 +9,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding:28px 64px;
+    padding:3rem 4rem;
     background: rgba(244,238,255, 1);
     color: #424874;
 }
@@ -55,7 +55,7 @@ header a:hover{
     color:#fff;
 }
 #welcome{
-    padding:20vh 64px 80px 64px;
+    padding:20vh 4rem 80px 4rem;
     background: 90%/50% no-repeat url(img/undraw_studying_s3l7.svg),#f4eeff;
 }
 .heading{
@@ -73,7 +73,7 @@ header a:hover{
 }
 #features{
     background: #f8f7fd;
-    padding: 64px 64px 24px 64px;
+    padding: 3rem 4rem 24px 4rem;
     line-height: 1.2;
     word-spacing: 0.08rem;
     letter-spacing: 0.02rem;
@@ -107,7 +107,7 @@ header a:hover{
 #search-notes{
     height: 100vh;
     background: 10%/30% no-repeat url(img/searching_duff.svg),#f4eeff;
-    padding:20vh 64px 80px 64px;
+    padding:20vh 4rem 80px 4rem;
     color: #353a5d;
 }
 .align-right{
