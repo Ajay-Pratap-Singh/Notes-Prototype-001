@@ -166,6 +166,10 @@ footer .button{
     }
     .align-right{
         position: unset;
+        width: unset;
+    }
+    .align-right .heading{
+        max-width: unset;
     }
     #feature-container{
         flex-direction: column;
