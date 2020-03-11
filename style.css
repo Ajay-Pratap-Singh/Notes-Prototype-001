@@ -161,6 +161,7 @@ footer .button{
 }
 @media all and (max-width : 700px){
     header{
+        padding:2rem 2rem;
         text-align: center;
         flex-wrap: wrap;
         flex-direction: column;
@@ -172,7 +173,7 @@ footer .button{
         display: none;
     }
     #welcome{
-        padding:4vh 4rem 80px 4rem;
+        padding:4vh 2rem 80px 2rem;
         background: 50% 30%/40% no-repeat url(img/undraw_studying_s3l7.svg),#f4eeff;
     }
     .heading{
@@ -192,7 +193,7 @@ footer .button{
     #search-notes{
         height: 100vh;
         background: 50% 20%/30% no-repeat url(img/searching_duff.svg),#f4eeff;
-        padding:2vh 4rem 80px 4rem;
+        padding:2vh 2rem 80px 2rem;
         color: #353a5d;
     }
     .align-right{
