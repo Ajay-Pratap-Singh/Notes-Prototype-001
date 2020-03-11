@@ -160,7 +160,7 @@ footer .button{
     }
     #sec2{
         height: 100vh;
-        background: 50% 50%/40% no-repeat url(../../img/exams.svg),#f4eeff;
+        background: 50% 30%/40% no-repeat url(../../img/exams.svg),#f4eeff;
         padding:2vh 2rem 80px 2rem;
         color: #353a5d;
     }
