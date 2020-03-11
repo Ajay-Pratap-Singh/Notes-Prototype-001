@@ -17,7 +17,6 @@ header span{
     font-weight: bolder;
     font-size: xx-large;
     color: #353a5d;
-
 }
 header ul{
     list-style: none;
@@ -161,7 +160,52 @@ footer .button{
     margin-top: 0.2rem;
 }
 @media all and (max-width : 700px){
+    header{
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    header span{
+        margin: 12px 12px;
+    }
+    header ul{
+        display: none;
+    }
+    #welcome{
+        padding:4vh 4rem 80px 4rem;
+        background: 50% 30%/40% no-repeat url(img/undraw_studying_s3l7.svg),#f4eeff;
+    }
+    .heading{
+        width: unset;
+        margin: 10px 0;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        color: #353a5d;
+    }
+    .head-content{
+        max-width:unset;
+        padding-top: 30vh;
+        color:#424874;
+        margin: 0 0 36px 0;
+        line-height: 1.7rem;
+    }
+    #search-notes{
+        height: 100vh;
+        background: 50% 20%/30% no-repeat url(img/searching_duff.svg),#f4eeff;
+        padding:2vh 4rem 80px 4rem;
+        color: #353a5d;
+    }
+    .align-right{
+        position: unset;
+    }
     #feature-container{
         flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer div{
+        max-width: none;
     }
 }

@@ -52,23 +52,30 @@
     <div id="search-notes">
         <div class="align-right">
             <p class="heading">Search Notes</p>
-            <p class="head-content"><p><label for="university">University Name:</label>
-            <select name="uni_name" id="university">
-                <option value="dcrust">DCRUST</option>
-                <!-- <option value="mdu">MDU</option> -->
-            </select></p>
-            <p><label for="course">Course Name:</label>
-            <select id="course" name="course_name">
-                <option value="bba">BBA</option>
-                <!-- <option value="mba">MBA</option> -->
-            </select></p>
-            <p><label for="sem">Semester:</label>
-            <select id="sem" name="semester">
-                <option value="sem-2">2</option>
-                <option value="sem-4">4</option>
-                <option value="sem-6">6</option>
-            </select></p>
-            <button class="button" onclick="window.location.href = document.getElementById('university').options[document.getElementById('university').selectedIndex].value+'/'+document.getElementById('course').options[document.getElementById('course').selectedIndex].value+'/'+document.getElementById('sem').options[document.getElementById('sem').selectedIndex].value;">View Notes</button></p>
+            <div class="head-content">
+                <p><label for="university">University Name:</label>
+                    <select name="uni_name" id="university">
+                        <option value="dcrust">DCRUST</option>
+                        <!-- <option value="mdu">MDU</option> -->
+                    </select>
+                </p>
+                <p>
+                    <label for="course">Course Name:</label>
+                    <select id="course" name="course_name">
+                        <option value="bba">BBA</option>
+                        <!-- <option value="mba">MBA</option> -->
+                    </select>
+                </p>
+                <p>
+                    <label for="sem">Semester:</label>
+                    <select id="sem" name="semester">
+                        <option value="sem-2">2</option>
+                        <option value="sem-4">4</option>
+                        <option value="sem-6">6</option>
+                    </select>
+                </p>
+                <button class="button" onclick="window.location.href = document.getElementById('university').options[document.getElementById('university').selectedIndex].value+'/'+document.getElementById('course').options[document.getElementById('course').selectedIndex].value+'/'+document.getElementById('sem').options[document.getElementById('sem').selectedIndex].value;">View Notes</button>
+            </div>
         </div>
     </div>
     <footer id="foot">
