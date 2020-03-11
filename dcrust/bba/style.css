@@ -58,19 +58,19 @@ header a:hover{
     padding:20vh 64px 80px 64px;
     background: 90%/50% no-repeat url(../../img/undraw_studying_s3l7.svg),#f4eeff;
 }
-#welcome ul{
+div ul{
     padding: unset;
     list-style: none;
     font-size: large;
 }
-#welcome li{
+div li{
     margin:10px 0;
 }
-#welcome a{
+div a{
     text-decoration: underline;
     color: #353a5d;
 }
-#welcome a:hover{
+div a:hover{
     color:#f24a00;
 }
 .heading{
@@ -85,6 +85,21 @@ header a:hover{
     color:#424874;
     margin: 36px 0;
     line-height: 1.7rem;
+}
+.align-right{
+    position: relative;
+    left:45vw;
+    width: max-content;
+}
+.align-right .heading{
+    width: unset;
+    max-width: 40vw;
+}
+#sec2{
+    height: 100vh;
+    background: 10%/30% no-repeat url(../../img/exams.svg),#EAE6FA;
+    padding:20vh 64px 80px 64px;
+    color: #424874;
 }
 footer{
     display: flex;
