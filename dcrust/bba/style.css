@@ -81,7 +81,7 @@ div a:hover{
     color: #353a5d;
 }
 .head-content{
-    width:36%;
+    max-width:36%;
     color:#424874;
     margin: 36px 0;
     line-height: 1.7rem;

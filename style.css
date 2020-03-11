@@ -9,7 +9,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding:3rem 4rem;
+    padding:2rem 4rem;
     background: rgba(244,238,255, 1);
     color: #424874;
 }
@@ -66,7 +66,7 @@ header a:hover{
     color: #353a5d;
 }
 .head-content{
-    width:36%;
+    max-width:36%;
     color:#424874;
     margin: 36px 0;
     line-height: 1.7rem;
