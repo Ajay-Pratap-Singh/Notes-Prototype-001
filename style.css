@@ -72,31 +72,33 @@ header a:hover{
     line-height: 1.7rem;
 }
 #features{
+    background: #f8f7fd;
     padding: 64px 64px 24px 64px;
     line-height: 1.2;
     word-spacing: 0.08rem;
     letter-spacing: 0.02rem;
 }
 #features h1{
+    color:#353a5d;
     text-align: center;
 }
 #feature-container{
     display: flex;
     flex-wrap: wrap;
-    padding:32px 0;
+    padding:18px 0;
 }
 .feature{
     flex: 1;
     padding: 38px;
     text-align: justify;
-    color: rgb(75, 75, 75);
+    color: #585663;
 }
 .feature h4{
     text-align: center;
-    color: rgb(25, 25, 25);
+    color: #353a5d;
 }
 .feature div{
-    background: center url(img/header-main-bg.jpg),rgba(0,0,0,0.5);
+    border: 1px solid #424874;
     margin: 12px auto;
     height: 150px;
     width: 150px;
