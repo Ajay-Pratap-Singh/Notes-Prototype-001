@@ -91,5 +91,28 @@
             <a href="https://forms.gle/AGyLKBNHVrAgvwoz8" target="_blank"><button class="button">Feedback</button></a>
         </div>
     </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAIsjJMOvPEo-F2k5wzDq8jhHRa0Qr8_S0",
+        authDomain: "notesguruauth.firebaseapp.com",
+        databaseURL: "https://notesguruauth.firebaseio.com",
+        projectId: "notesguruauth",
+        storageBucket: "notesguruauth.appspot.com",
+        messagingSenderId: "802291421105",
+        appId: "1:802291421105:web:69008f75988df0c2f3f790",
+        measurementId: "G-SP1B83L5ND"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 </body>
 </html>
