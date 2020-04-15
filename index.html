@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>notesguru - Homepage</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,11 +18,19 @@
             <li><a href="Privacy Policy.pdf" target="_blank">Privacy Policy</a></li>
             <li><a href="#foot">Contact Us</a></li>
         </ul>
-        <span class="button"><a href="#search-notes">Search Notes</a></span>
+        <span>
+            <span class="button"><a href="#search-notes">Search Notes</a></span>
+            <span class="button"><a  id="login">loading..</a></span>
+        </span>
     </header>
+    <div id="loginfrm">
+        <div id="close" onclick="closeLogin()">X</div> 
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>  
+    </div>
     <div id="welcome">
         <p class="heading">Welcome to Notes Guru</p>
-        <p class="head-content">NotesGuru.info is a platform built to share and get access to quality notes for your college examinations. Currently we are developing content for DCRUST, Murthal and aiming to expand pan Haryana and Country wide further. Would you like to be a part of the team??, dive in:</p>
+        <p class="head-content">NotesGuru.info is a platform built to share and get access to quality notes for your college examinations. Currently we are developing quality notes for BBA DCRUST(Deenbandhu Chhotu Ram University of Science and Technology), Murthal and aiming to expand pan Haryana and Country wide further. Would you like to be a part of the team, dive in:</p>
         <span class="button"><a href="https://forms.gle/kzUtk5m56tiZZvpX6" target="_blank">Join US</a></span>
     </div>
     <div id="features">
@@ -30,22 +39,22 @@
             <span class="feature">
                 <div style="background: no-repeat center url(img/place.svg);background-size: contain;"></div>
                     <h4>Single Platform</h4>
-                    <p>A single platform to get all your own college notes. Find previous year question papers and notes all at one place</p>
+                    <p>NotesGuru is a single platform to get all your own college notes. Find previous year question papers and notes all at one place.</p>
             </span>
             <span class="feature">
                 <div style="background: no-repeat center url(img/college.svg);background-size: contain;"></div>
                     <h4>More is Better</h4>
-                    <p>Access notes of other colleges affiliated from same university. In future students can share and access notes from various colleges sharing same syllabi.</p>
+                    <p>On notesguru we will also provide notes from teachers of various colleges. Access notes of other colleges affiliated from same university.</p>
             </span>
             <span class="feature">
                 <div style="background: no-repeat center url(img/surf.svg);background-size: contain;"></div>
                     <h4>No Surfing</h4>
-                    <p>No need to do surfing over internet for study material. Everything in detailed manner available at a place.</p>
+                    <p>No need to do surfing over internet for study material find everything in complete detail on notesguru. Currently notes for BBA are ready for dcrust university.</p>
             </span>
             <span class="feature">
                 <div style="background: no-repeat center url(img/expert.svg);background-size: contain;"></div>
                     <h4>Quality Notes</h4>
-                    <p>Notes made after thorough and deep understanding of subjects. More study material available with our expert notes.</p>
+                    <p>The main objective here at NotesGuru is to provide best notes which are prepared after thorough and deep understanding of subjects.</p>
             </span>
         </div>
     </div>
@@ -55,7 +64,7 @@
             <div class="head-content">
                 <p><label for="university">University Name:</label>
                     <select name="uni_name" id="university">
-                        <option value="dcrust">DCRUST</option>
+                        <option value="dcrust">DCRUST [Deenbandhu Chhotu Ram University of Science and Technology]</option>
                         <!-- <option value="mdu">MDU</option> -->
                     </select>
                 </p>
@@ -74,7 +83,7 @@
                         <option value="sem-6">6</option>
                     </select>
                 </p>
-                <button class="button" onclick="window.location.href = document.getElementById('university').options[document.getElementById('university').selectedIndex].value+'/'+document.getElementById('course').options[document.getElementById('course').selectedIndex].value+'/'+document.getElementById('sem').options[document.getElementById('sem').selectedIndex].value;">View Notes</button>
+                <a class="button buttonOm" onclick="window.location.href = document.getElementById('university').options[document.getElementById('university').selectedIndex].value+'/'+document.getElementById('course').options[document.getElementById('course').selectedIndex].value+'/'+document.getElementById('sem').options[document.getElementById('sem').selectedIndex].value;">View Notes</a>
             </div>
         </div>
     </div>
@@ -108,35 +117,21 @@
         </div>
         <div>
             <p>We would love to hear your thoughts, concerns or problems with anything. So we can improve!</p>
-            <a href="https://forms.gle/AGyLKBNHVrAgvwoz8" target="_blank"><button class="button">Feedback</button></a>
+            <a href="https://forms.gle/AGyLKBNHVrAgvwoz8" target="_blank"><span class="button buttonOm">Feedback</span></a>
         </div>
     </footer>
     <div style="margin-left: -100px; background: #424874;">
-        <script type="text/javascript" src="//counter.websiteout.net/js/36/6/0/0"></script>
+        <!-- <script type="text/javascript" src="//counter.websiteout.net/js/36/6/0/0"></script> -->
     </div>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <!-- needed sdks -->
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
-    <script src="/__/firebase/7.13.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
 
-    <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "AIzaSyAIsjJMOvPEo-F2k5wzDq8jhHRa0Qr8_S0",
-        authDomain: "notesguruauth.firebaseapp.com",
-        databaseURL: "https://notesguruauth.firebaseio.com",
-        projectId: "notesguruauth",
-        storageBucket: "notesguruauth.appspot.com",
-        messagingSenderId: "802291421105",
-        appId: "1:802291421105:web:69008f75988df0c2f3f790",
-        measurementId: "G-SP1B83L5ND"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-    </script>
+    <!-- initialize firebase -->
+    <script src="firebase.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

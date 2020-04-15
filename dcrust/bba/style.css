@@ -9,7 +9,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding:28px 64px;
+    padding:2rem 4rem;
     background: rgba(244,238,255, 1);
     color: #424874;
 }
@@ -17,7 +17,6 @@ header span{
     font-weight: bolder;
     font-size: xx-large;
     color: #353a5d;
-
 }
 header ul{
     list-style: none;
@@ -38,7 +37,7 @@ header a:hover{
     border-radius: 8px;
     background: #f56e33;
     color:#fff;
-    padding: 12px 15px;
+    padding: 10px 12px;
     font-weight: normal;
     font-size: large;
     border: none;
@@ -53,6 +52,36 @@ header a:hover{
 }
 .button a:hover{
     color:#fff;
+}
+#loginfrm{	
+    padding: 5%;	
+    display: none;	
+    position: fixed;	
+    left:10%;	
+    top:14%;	
+    height: 75%;	
+    width: 80%;	
+    /* border: 1px solid black; */	
+    border-radius: 18px;	
+    background-color: rgba(0,0,0, 0.88);	
+    transition: 0.3s;	
+    z-index: 1000;	
+}	
+#loginfrm:hover,#loginfrm:focus{	
+    transition: 0.8s;	
+    background-color: rgba(0,0,0, 0.99);	
+    box-shadow: 0 0 10px #424874;	
+    border: 1px solid #424874;	
+}
+#close{
+    color:aliceblue;
+    position: relative;
+    top: -10%;
+    right: -100%;
+    cursor: pointer;
+}
+#close:hover{
+    color:#FF5050;
 }
 #welcome{
     padding:20vh 64px 80px 64px;
@@ -100,6 +129,12 @@ div a:hover{
     background: 10%/30% no-repeat url(../../img/exams.svg),#EAE6FA;
     padding:20vh 64px 80px 64px;
     color: #424874;
+}
+.buttonOm{	
+    display: inline-block;	
+    text-align: center;	
+    margin-top: 2rem;	
+    width: 22rem;	
 }
 footer{
     display: flex;

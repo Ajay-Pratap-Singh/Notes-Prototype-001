@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DCRUST BBA Semester 4</title>
+    <title>notesguru DCRUST BBA Semester 4 Notes</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -17,8 +18,16 @@
             <li><a href="../../../Privacy Policy.pdf" target="_blank">Privacy Policy</a></li>
             <li><a href="#foot">Contact Us</a></li>
         </ul>
-        <span class="button"><a href="../../../index.html#search-notes">Search Notes</a></span>
+        <span>
+            <span class="button"><a href="#search-notes">Search Notes</a></span>
+            <span class="button"><a  id="login">loading..</a></span>
+        </span>
     </header>
+    <div id="loginfrm">
+        <div id="close" onclick="closeLogin()">X</div> 
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>  
+    </div>
     <div id="welcome">
         <p class="heading">Our Expert Notes for BBA Sem-4</p>
         <p class="head-content">
@@ -106,27 +115,13 @@
     </footer>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <!-- needed sdks -->
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
-    <script src="/__/firebase/7.13.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
 
-    <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "AIzaSyAIsjJMOvPEo-F2k5wzDq8jhHRa0Qr8_S0",
-        authDomain: "notesguruauth.firebaseapp.com",
-        databaseURL: "https://notesguruauth.firebaseio.com",
-        projectId: "notesguruauth",
-        storageBucket: "notesguruauth.appspot.com",
-        messagingSenderId: "802291421105",
-        appId: "1:802291421105:web:69008f75988df0c2f3f790",
-        measurementId: "G-SP1B83L5ND"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-    </script>
+    <!-- initialize firebase -->
+    <script src="../../../firebase.js"></script>
+    <script src="../../../main.js"></script>
 </body>
 </html>

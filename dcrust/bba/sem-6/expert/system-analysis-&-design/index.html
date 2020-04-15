@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>NotesGuru - System Analysis and Design</title>
+    <title>NotesGuru - System Analysis and Design | BBA DCRUST notes | Sem 6 SAAD</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     <link rel="stylesheet" href="../../../../../syll-style.css">
 </head>
 <body>
-    <div>
+    <div id="syll">
         <h1>System Analysis and Design</h1>
         <ul>
-            <li><u><strong>Unit-I:</strong></u> <a href="Introduction-to-analysis-and-design.pdf" target="_blank">Introduction to analysis and design:</a>,<a href="SDLC.pdf" target="_blank">SDLC</a>, <a href="Case-tools-for-analyst.pdf" target="_blank">Case tools for analyst</a>, <a href="role-of-system-analyst.pdf" target="_blank">role of system analyst</a>, <a href="ER-data-models.pdf" target="_blank">ER data models</a>, <a href="feasibility-study.pdf" target="_blank">feasibility study: economic, technical, operational</a></li>
+            <li><strong>Unit-I:</strong> <a href="Introduction-to-analysis-and-design.pdf" target="_blank">Introduction to analysis and design:</a>,<a href="SDLC.pdf" target="_blank">SDLC</a>, <a href="Case-tools-for-analyst.pdf" target="_blank">Case tools for analyst</a>, <a href="role-of-system-analyst.pdf" target="_blank">role of system analyst</a>, <a href="ER-data-models.pdf" target="_blank">ER data models</a>, <a href="feasibility-study.pdf" target="_blank">feasibility study: economic, technical, operational</a></li>
 
-            <li><u><strong>Unit-II:</strong></u> <a href="Design-of-Application.pdf" target="_blank">Design of Application: DFDs</a>, <a href="Form-design.pdf" target="_blank">form design</a>, <a href="screen-design.pdf" target="_blank">screen design</a>, <a href="" target="_blank">report design</a>,<a href="structure-chart.pdf" target="_blank">structure chart</a >,<a href="data-base-definition.pdf" target="_blank">data base definition</a>,<a href="coming-soon.pdf" target="_blank">equipment specification and selection</a>,<a href="coming-soon.pdf" target="_blank">personnel estimates</a>,<a href="coming-soon.pdf" target="_blank">I-O design</a></li>
+            <li><strong>Unit-II:</strong> <a href="Design-of-Application.pdf" target="_blank">Design of Application: DFDs</a>, <a href="Form-design.pdf" target="_blank">form design</a>, <a href="screen-design.pdf" target="_blank">screen design</a>, <a href="coming-soon.pdf" target="_blank">report design</a>,<a href="structure-chart.pdf" target="_blank">structure chart</a >,<a href="data-base-definition.pdf" target="_blank">data base definition</a>,<a href="equipment specification and selection.pdf" target="_blank">equipment specification and selection</a>,<a href="personnel estimates.pdf" target="_blank">personnel estimates</a>,<a href="I-O design.pdf" target="_blank">I-O design</a></li>
 
-            <li><u><strong>Unit-III:</strong></u> <a href="coming-soon.pdf" target="_blank">Implementation: data dictionary</a>, <a href="coming-soon.pdf" target="_blank">decision tables</a>, <a href="coming-soon.pdf" target="_blank">decision trees</a>, <a href="coming-soon.pdf" target="_blank">Education and Training-System Testing Change over</a>, <a href="coming-soon.pdf" target="_blank">Maintenance and Review</a></li>
+            <li><strong>Unit-III:</strong> <a href="data-dictionary.pdf" target="_blank">Implementation: data dictionary</a>, <a href="decision-tables.pdf" target="_blank">decision tables</a>, <a href="decision-trees.pdf" target="_blank">decision trees</a>, <a href="Education-and-Training.pdf" target="_blank">Education and Training-System Testing Change over</a>, <a href="Maintenance-and-Review.pdf" target="_blank">Maintenance and Review</a></li>
 
-            <li><u><strong>Unit-IV:</strong></u> <a href="coming-soon.pdf" target="_blank">Introduction to distributed data processing and real time system</a>, <a href="coming-soon.pdf" target="_blank">designing distributed data base</a>, <a href="coming-soon.pdf" target="_blank">event based real time analysis tools</a></li>
+            <li><strong>Unit-IV:</strong> <a href="Introduction-to-distributed-data-processing.pdf" target="_blank">Introduction to distributed data processing and real time system: evaluating distributing system</a>, <a href="designing-distributed-data-base.pdf" target="_blank">designing distributed data base</a>, <a href="event based real time analysis tools.pdf" target="_blank">event based real time analysis tools</a></li>
         </ul>
     </div>
+    <div id="loginfrm">
+        <div id="close" onclick="closeLogin()">X</div> 
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <!-- needed sdks -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
+
+    <!-- initialize firebase -->
+    <script src="../../../../../firebase.js"></script>
+    <script src="../../../../../syll.js"></script>
 </body>
 </html>

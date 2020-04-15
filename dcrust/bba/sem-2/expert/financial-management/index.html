@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>NotesGuru - Financial Management</title>
+    <title>NotesGuru - Financial Management | BBA DCRUST notes | Sem 2</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     <link rel="stylesheet" href="../../../../../syll-style.css">
 </head>
 <body>
-    <div>
+    <div id="syll">
         <h1>Financial Management</h1>
         <ul>
             <li><u><strong>Unit-I: </strong></u><a href="Financial-management.pdf" target="_blank">Financial management: Introduction, significance, scope, functions</a>, <a href="objectives-of-financial-management-in-healthcare.pdf" target="_blank">objectives of financial management in healthcare</a>, <a href="Profit-maximization-vs.-wealth-maximization.pdf" target="_blank">Profit maximization vs. wealth maximization</a>, <a href="sources-of-finance.pdf" target="_blank">Sources of finance: Short term, medium term and long term sources of finance</a></li>
@@ -20,5 +21,20 @@
             <li><u><strong>Unit-IV: </strong></u><a href="coming-soon.pdf" target="_blank">Working Capital: Meaning</a>, <a href="coming-soon.pdf" target="_blank">nature and planning of working capital. Permanent and variable working capital</a>, <a href="coming-soon.pdf" target="_blank">Determinates of working capital</a>, <a href="coming-soon.pdf" target="_blank">Issues of working capital management. Management of cash: Meaning</a>, <a href="coming-soon.pdf" target="_blank">Motives of holding cash and problems of cash management. </a></li>
         </ul>
     </div>
+    <div id="loginfrm">
+        <div id="close" onclick="closeLogin()">X</div> 
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <!-- needed sdks -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
+
+    <!-- initialize firebase -->
+    <script src="../../../../../firebase.js"></script>
+    <script src="../../../../../syll.js"></script>
 </body>
 </html>

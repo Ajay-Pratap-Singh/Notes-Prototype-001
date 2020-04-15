@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>NotesGuru - Principles of Management</title>
+    <title>NotesGuru - Principles of Management | BBA DCRUST notes | Sem 2</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     <link rel="stylesheet" href="../../../../../syll-style.css">
 </head>
 <body>
-    <div>
+    <div id="syll">
         <h1>Principles of Management</h1>
         <ul>
-            <li><u><strong>Unit-I:</strong></u><a href="Introduction.pdf" target="_blank">Introduction: nature and process of management</a>, <a href="principles-and-functions-of-management.pdf" target="_blank">principles and functions of management</a>, <a href="basic-managerial-roles-and-skills.pdf" target="_blank">basic managerial roles and skills</a>, <a href="approaches-to-management.pdf" target="_blank">approaches to management: classical, human relations and behavioral, systems and contingency approaches</a>, <a href="contemporary-issues-and-challenges.pdf" target="_blank">contemporary issues and challenges</a></li>
+            <li><strong>Unit-I:</strong><a href="Introduction.pdf" target="_blank">Introduction - nature and process of management</a>, <a href="principles-and-functions-of-management.pdf" target="_blank">principles and functions of management</a>, <a href="basic-managerial-roles-and-skills.pdf" target="_blank">basic managerial roles and skills</a>, <a href="approaches-to-management.pdf" target="_blank">approaches to management: classical, human relations and behavioral, systems and contingency approaches</a>, <a href="contemporary-issues-and-challenges.pdf" target="_blank">contemporary issues and challenges</a></li>
 
-            <li><u><strong>Unit-II:</strong></u><a href="Planning.pdf" target="_blank"> Planning and decision making: concept</a>, <a href="purpose-and-process-of-planning.pdf" target="_blank">purpose and process of planning</a>, <a href="types-of-plans.pdf" target="_blank">types of plans</a>, <a href="strategic-planning-tactical-planning-and-operational-planning.pdf" target="_blank">strategic planning, tactical planning and operational planning</a>, <a href="goal-setting.pdf" target="_blank">goal setting</a>, <a href="MBO.pdf" target="_blank">MBO</a>, <a href="decision-making.pdf" target="_blank">decision making: nature and process, behavioral aspects of decision making, forms of group decision making in organizations</a></li>
+            <li><strong>Unit-II:</strong><a href="Planning.pdf" target="_blank">Planning and decision making - concept</a>, <a href="purpose-and-process-of-planning.pdf" target="_blank">purpose and process of planning</a>, <a href="types-of-plans.pdf" target="_blank">types of plans</a>, <a href="strategic-planning-tactical-planning-and-operational-planning.pdf" target="_blank">strategic planning, tactical planning and operational planning</a>, <a href="goal-setting.pdf" target="_blank">goal setting</a>, <a href="MBO.pdf" target="_blank">MBO</a>, <a href="decision-making.pdf" target="_blank">decision making: nature and process, behavioral aspects of decision making, forms of group decision making in organizations</a></li>
 
-            <li><u><strong>Unit-III:</strong></u><a href="coming-soon.pdf" target="_blank">Organizing and leading: elements of organizing- division of work</a>, <a href="coming-soon.pdf" target="_blank">departmentalization</a>, <a href="coming-soon.pdf" target="_blank">distribution of authority</a>, <a href="coming-soon.pdf" target="_blank">coordination</a>, <a href="coming-soon.pdf" target="_blank">organization structure and design</a>, <a href="coming-soon.pdf" target="_blank">leadership nature and significance</a>, <a href="coming-soon.pdf" target="_blank">leadership styles</a>, <a href="coming-soon.pdf" target="_blank">behavioral and situational approaches to leadership </a></li>
+            <li><strong>Unit-III:</strong><a href="elements-of-organizing.pdf" target="_blank">Organizing and leading: elements of organizing- division of work, departmentalization</a>, <a href="distribution-of-authority.pdf" target="_blank">distribution of authority, coordination</a>, <a href="organization-structure-and-design.pdf" target="_blank">organization structure and design</a>, <a href="leadership.pdf" target="_blank">leadership - nature and significance</a>, <a href="leadership-styles.pdf" target="_blank">leadership styles</a>, <a href="behavioral-and-situational-approaches-to-leadership.pdf" target="_blank">behavioral and situational approaches to leadership </a></li>
 
-            <li><u><strong>Unit-IV:</strong></u><a href="coming-soon.pdf" target="_blank">Motivation: concept and nature</a>, <a href="coming-soon.pdf" target="_blank">need hierarchy and motivation-hygiene</a>, <a href="coming-soon.pdf" target="_blank">theories of motivation</a>, <a href="coming-soon.pdf" target="_blank">Management control: nature</a>, <a href="coming-soon.pdf" target="_blank">purpose and process of controlling</a>, <a href="coming-soon.pdf" target="_blank">kinds of control system</a>, <a href="coming-soon.pdf" target="_blank">prerequisites of effective control system</a>, <a href="coming-soon.pdf" target="_blank">controlling techniques.</a></li>
+            <li><strong>Unit-IV:</strong><a href="Motivation.pdf" target="_blank">Motivation: concept and nature</a>, <a href="need-hierarchy.pdf" target="_blank">need hierarchy and motivation-hygiene theories of motivation</a>, <a href="Management-control.pdf" target="_blank">Management control:- nature, purpose and process of controlling</a>, <a href="kinds-of-control-system.pdf" target="_blank">kinds of control system</a>, <a href="prerequisites-of-effective-control-system.pdf" target="_blank">prerequisites of effective control system</a>, <a href="controlling-techniques.pdf" target="_blank">controlling techniques.</a></li>
         </ul>
     </div>
+    <div id="loginfrm">
+        <div id="close" onclick="closeLogin()">X</div> 
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <!-- needed sdks -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
+
+    <!-- initialize firebase -->
+    <script src="../../../../../firebase.js"></script>
+    <script src="../../../../../syll.js"></script>
 </body>
 </html>

@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>NotesGuru - Fundamentals of Insurance</title>
+    <title>NotesGuru - Fundamentals of Insurance | BBA DCRUST notes | Sem 6</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     <link rel="stylesheet" href="../../../../../syll-style.css">
 </head>
 <body>
-    <div>
+    <div id="syll">
         <h1>Fundamentals of Insurance</h1>
         <ul>
-            <li><u><strong>Unit-I:</strong></u> <a href="Insurance.pdf" target="_blank">Insurance: Meaning, scope and principles of insurance</a>, <a href="types-of-insurance.pdf" target="_blank">types of insurance</a>, <a href="coming-soon.pdf" target="_blank">Re-insurance</a>, <a href="Underwriting-in-insurance.pdf" target="_blank">Underwriting in insurance</a>, <a href="factors-affecting-the-growth-of-insurance-sector-in-India.pdf" target="_blank">factors affecting the growth of insurance sector in India</a>, <a href="Role-of-IRDA-as-a-regulator-on-insurance-sector-in-India.pdf" target="_blank">Role of IRDA as a regulator on insurance sector in India</a></li>
+            <li><strong>Unit-I:</strong> <a href="Insurance.pdf" target="_blank">Insurance: Meaning, scope and principles of insurance</a>, <a href="types-of-insurance.pdf" target="_blank">types of insurance</a>, <a href="coming-soon.pdf" target="_blank">Re-insurance</a>, <a href="Underwriting-in-insurance.pdf" target="_blank">Underwriting in insurance</a>, <a href="factors-affecting-the-growth-of-insurance-sector-in-India.pdf" target="_blank">factors affecting the growth of insurance sector in India</a>, <a href="Role-of-IRDA-as-a-regulator-on-insurance-sector-in-India.pdf" target="_blank">Role of IRDA as a regulator on insurance sector in India</a></li>
 
-            <li><u><strong>Unit-II:</strong></u> <a href="Life-Insurance.pdf" target="_blank">Life Insurance: need</a>, <a href="factors-affecting-the-need-of-life-insurance.pdf" target="_blank">factors affecting the need of life insurance</a>, <a href="Unit-linked-insurance-plan-and-traditional-plans-in-life-insurance.pdf" target="_blank">Unit-linked insurance plan and traditional plans in life insurance</a>, <a href="criteria-for-the-selection-of-life-insurance-policy.pdf" target="_blank">criteria for the selection of life insurance policy</a></li>
+            <li><strong>Unit-II:</strong> <a href="Life-Insurance.pdf" target="_blank">Life Insurance: need</a>, <a href="factors-affecting-the-need-of-life-insurance.pdf" target="_blank">factors affecting the need of life insurance</a>, <a href="Unit-linked-insurance-plan-and-traditional-plans-in-life-insurance.pdf" target="_blank">Unit-linked insurance plan and traditional plans in life insurance</a>, <a href="criteria-for-the-selection-of-life-insurance-policy.pdf" target="_blank">criteria for the selection of life insurance policy</a></li>
 
-            <li><u><strong>Unit-III:</strong></u> <a href="coming-soon.pdf" target="_blank">Health Insurance: need and types</a>, <a href="coming-soon.pdf" target="_blank">criteria for the selection health insurance policy</a>, <a href="coming-soon.pdf" target="_blank">Third Party Administration (TPA): Origin of TPA</a>, <a href="coming-soon.pdf" target="_blank">role of TPA as mediator</a>, <a href="coming-soon.pdf" target="_blank">functions of Third Party Administration</a></li>
+            <li><strong>Unit-III:</strong> <a href="coming-soon.pdf" target="_blank">Health Insurance: need and types</a>, <a href="coming-soon.pdf" target="_blank">criteria for the selection health insurance policy</a>, <a href="coming-soon.pdf" target="_blank">Third Party Administration (TPA): Origin of TPA</a>, <a href="coming-soon.pdf" target="_blank">role of TPA as mediator</a>, <a href="coming-soon.pdf" target="_blank">functions of Third Party Administration</a></li>
 
-            <li><u><strong>Unit-IV:</strong></u> <a href="coming-soon.pdf" target="_blank">Pricing and Distribution Channels of Insurance Plans</a>, <a href="coming-soon.pdf" target="_blank">factors affecting the pricing of various types of insurances</a>, <a href="coming-soon.pdf" target="_blank">Online and offline mode of distribution insurance</a>, <a href="coming-soon.pdf" target="_blank">insurance brokers and agents</a>, <a href="coming-soon.pdf" target="_blank">banking outlets</a></li>
+            <li><strong>Unit-IV:</strong> <a href="coming-soon.pdf" target="_blank">Pricing and Distribution Channels of Insurance Plans</a>, <a href="coming-soon.pdf" target="_blank">factors affecting the pricing of various types of insurances</a>, <a href="coming-soon.pdf" target="_blank">Online and offline mode of distribution insurance</a>, <a href="coming-soon.pdf" target="_blank">insurance brokers and agents</a>, <a href="coming-soon.pdf" target="_blank">banking outlets</a></li>
         </ul>
     </div>
+    <div id="loginfrm">
+        <div id="close" onclick="closeLogin()">X</div> 
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <!-- needed sdks -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
+
+    <!-- initialize firebase -->
+    <script src="../../../../../firebase.js"></script>
+    <script src="../../../../../syll.js"></script>
 </body>
 </html>

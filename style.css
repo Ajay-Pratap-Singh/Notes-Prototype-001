@@ -37,7 +37,7 @@ header a:hover{
     border-radius: 8px;
     background: #f56e33;
     color:#fff;
-    padding: 12px 15px;
+    padding: 10px 12px;
     font-weight: normal;
     font-size: large;
     border: none;
@@ -53,8 +53,38 @@ header a:hover{
 .button a:hover{
     color:#fff;
 }
+#loginfrm{
+    padding: 5%;
+    display: none;
+    position: fixed;
+    left:10%;
+    top:14%;
+    height: 75%;
+    width: 80%;
+    /* border: 1px solid black; */
+    border-radius: 18px;
+    background-color: rgba(0,0,0, 0.88);
+    transition: 0.3s;
+    z-index: 1000;
+}
+#loginfrm:hover,#loginfrm:focus{
+    transition: 0.8s;
+    background-color: rgba(0,0,0, 0.99);
+    box-shadow: 0 0 10px #424874;
+    border: 1px solid #424874;
+}
+#close{
+    color:aliceblue;
+    position: relative;
+    top: -10%;
+    right: -100%;
+    cursor: pointer;
+}
+#close:hover{
+    color:#FF5050;
+}
 #welcome{
-    padding:20vh 4rem 80px 4rem;
+    padding:15vh 4rem 80px 4rem;
     background: 90%/50% no-repeat url(img/undraw_studying_s3l7.svg),#f4eeff;
 }
 .heading{
@@ -88,8 +118,8 @@ header a:hover{
 }
 .feature{
     flex: 1;
-    padding: 38px;
-    text-align: justify;
+    padding: 22px;
+    text-align:left;
     color: #585663;
 }
 .feature h4{
@@ -129,7 +159,9 @@ select{
     width: 10rem;
     text-align: center;
 }
-button{
+.buttonOm{
+    display: inline-block;
+    text-align: center;
     margin-top: 2rem;
     width: 22rem;
 }
