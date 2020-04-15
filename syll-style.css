@@ -64,7 +64,7 @@ a:hover{
     color:#FF5050;
 }
 @media all and (max-width : 700px){
-    div{
+    #syll{
         width: 100%;
         padding: 30px 30px;
     }
