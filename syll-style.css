@@ -68,4 +68,8 @@ a:hover{
         width: 100%;
         padding: 30px 30px;
     }
+    #close{
+        top: 0%;
+        right: -100%;
+    }
 }
