@@ -30,6 +30,20 @@ body {
   height: 100vh;
 }
 
+#logo{
+  position: relative;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #353a5d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1000;
+}
+
+#logo a{
+  text-decoration: none;
+    cursor: pointer;
+}
+
 #notfound .notfound {
   position: absolute;
   left: 50%;
@@ -130,8 +144,9 @@ body {
 
 <body>
 
-	<div id="notfound">
-		<div class="notfound">
+  <div id="notfound">
+    <div class="notfound">
+      <span id ="logo"><a href="https://notesguru.info">NotesGuru</a></span>
 			<div class="notfound-404">
 				<h3>Oops! Content not found</h3>
 				<h1><span>4</span><span>0</span><span>4</span></h1>
