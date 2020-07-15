@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>notesguru IPU BBA Semester 6 Notes</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <!-- <img src="img/logo-tr.png" alt="company logo"> -->
+        <span><a href="../../../index.html">NotesGuru</a></span>
+        <ul>
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="../../../Privacy Policy.pdf" target="_blank">Privacy Policy</a></li>
+            <li><a href="#foot">Contact Us</a></li>
+        </ul>
+        <span>
+            <span class="button"><a href="../../../index.html#search-notes">Search Notes</a></span>
+            <span class="button"><a  id="login">loading..</a></span>
+        </span>
+    </header>
+    <div id="loginfrm">
+        <div id="close" onclick="closeLogin()">X</div> 
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>  
+    </div>
+    <div id="welcome">
+        <p class="heading">Our Expert Notes for BBA Sem-2</p>
+        <p class="head-content">
+            <ul id="subjects-list">
+                <li class="subject"><a href="business-policy-&-strategy/">Business Policy & Strategy</a></li>
+                <li class="subject"><a href="digital-marketing/">Digital Marketing</a></li>
+                <li class="subject"><a href="international-business-management/">International Business Management</a></li>
+                <li class="subject"><a href="project-management/">Project Management</a></li>
+                <li class="subject"><a href="sales-&-distribution-management/">Sales & Distribution Management</a></li>
+                <!-- <li class="subject"><a href="expert/management-of-innovations/">Management of Innovations</a></li> -->
+            </ul>
+        </p>
+    </div>
+    <footer id="foot">
+        <div>
+            <p>
+                <strong>NotesGuru, The Learning Website.</strong>
+            </p>
+            <p>
+                <a href="mailto:notesguru01@gmail.com">notesguru01@gmail.com</a>
+            </p>
+            <p>
+                Sonipat, Haryana, India
+            </p>
+            <p id="copyright">
+                Copyright 2020 NotesGuru. All Rights Reserved
+            </p>
+        </div>
+        <div>
+            <p>
+                <a href="mailto:notesguru01@gmail.com">Gmail</a>
+                &nbsp;&nbsp;
+                <a href="http://www.facebook.com/notesguru01/">Facebook</a>
+            </p>
+            <p>
+                <a href="../../../Privacy Policy.pdf" target="_blank">Privacy Policy</a>
+            </p>
+            <p>
+                <a href="https://forms.gle/kzUtk5m56tiZZvpX6">Join Us!!</a>
+            </p>
+        </div>
+        <div>
+            <p>We would love to hear your thoughts, concerns or problems with anything. So we can improve!</p>
+            <a href="https://forms.gle/AGyLKBNHVrAgvwoz8" target="_blank"><button class="button buttonOm">Feedback</button></a>
+        </div>
+    </footer>
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+     <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+     <!-- needed sdks -->
+     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
+ 
+     <!-- initialize firebase -->
+     <script src="../../../firebase.js"></script>
+     <script src="../../../main.js"></script>
+</body>
+</html>

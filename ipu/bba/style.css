@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    padding: 0;
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem 4rem;
+    background: rgba(244,238,255, 1);
+    color: #424874;
+}
+header span{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #353a5d;
+}
+header ul{
+    list-style: none;
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    margin: 0 14px;
+}
+header a{
+    text-decoration: none;
+    color:inherit;
+}
+header a:hover{
+    color:#f24a00;
+}
+.button{
+    border-radius: 8px;
+    background: #f56e33;
+    color:#fff;
+    padding: 10px 12px;
+    font-weight: normal;
+    font-size: large;
+    border: none;
+}
+.button a{
+    text-decoration: none;
+    color:inherit;
+}
+.button:hover{
+    background: #f35c1a;
+    cursor: pointer;
+}
+.button a:hover{
+    color:#fff;
+}
+#loginfrm{	
+    padding: 5%;	
+    display: none;	
+    position: fixed;	
+    left:10%;	
+    top:14%;	
+    height: 75%;	
+    width: 80%;	
+    /* border: 1px solid black; */	
+    border-radius: 18px;	
+    background-color: rgba(0,0,0, 0.88);	
+    transition: 0.3s;	
+    z-index: 1000;	
+}	
+#loginfrm:hover,#loginfrm:focus{	
+    transition: 0.8s;	
+    background-color: rgba(0,0,0, 0.99);	
+    box-shadow: 0 0 10px #424874;	
+    border: 1px solid #424874;	
+}
+#close{
+    color:aliceblue;
+    position: relative;
+    top: -10%;
+    right: -100%;
+    cursor: pointer;
+}
+#close:hover{
+    color:#FF5050;
+}
+#welcome{
+    padding:20vh 64px 80px 64px;
+    background: 90%/50% no-repeat url(../../img/undraw_studying_s3l7.svg),#f4eeff;
+}
+div ul{
+    padding: unset;
+    list-style: none;
+    font-size: large;
+}
+div li{
+    margin:10px 0;
+}
+div a{
+    text-decoration: underline;
+    color: #353a5d;
+}
+div a:hover{
+    color:#f24a00;
+}
+.heading{
+    width:36%;
+    margin: 10px 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #353a5d;
+}
+.head-content{
+    max-width:36%;
+    color:#424874;
+    margin: 36px 0;
+    line-height: 1.7rem;
+}
+.align-right{
+    position: relative;
+    left:45vw;
+    width: max-content;
+}
+.align-right .heading{
+    width: unset;
+    max-width: 40vw;
+}
+#sec2{
+    height: 100vh;
+    background: 10%/30% no-repeat url(../../img/exams.svg),#EAE6FA;
+    padding:20vh 64px 80px 64px;
+    color: #424874;
+}
+.buttonOm{	
+    display: inline-block;	
+    text-align: center;	
+    margin-top: 2rem;	
+    width: 22rem;	
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background:#424874;
+    padding: 5rem 2rem 5rem 5rem;
+    font-size: 0.9rem;
+    color:#f4eeff;
+}
+footer #copyright{
+    margin-top: 3rem;
+    color: #a6b1e1;
+}
+footer a{
+    color:#f4eeff;
+}
+footer div{
+    display: inline-block;
+    max-width: 30%;
+}
+footer .button{
+    width: unset;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 5rem;
+    margin-top: 0.2rem;
+}
+@media all and (max-width : 700px){
+    header{
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding:2rem 2rem;
+    }
+    header span{
+        margin: 12px 12px;
+    }
+    header ul{
+        display: none;
+    }
+    #welcome{
+        padding:4vh 2rem 80px 2rem;
+        background: 50% 30%/40% no-repeat url(../../img/undraw_studying_s3l7.svg),#f4eeff;
+    }
+    .heading{
+        width: unset;
+        margin: 10px 0;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        color: #353a5d;
+    }
+    .head-content{
+        width:unset;
+        padding-top: 30vh;
+        color:#424874;
+        margin: 0 0 36px 0;
+        line-height: 1.7rem;
+    }
+    #sec2{
+        height: 100vh;
+        background: 50% 30%/40% no-repeat url(../../img/exams.svg),#EAE6FA;
+        padding:2vh 2rem 80px 2rem;
+        color: #353a5d;
+    }
+    .align-right{
+        position: unset;
+        width: unset;
+    }
+    .align-right .heading{
+        max-width: unset;
+    }
+    #feature-container{
+        flex-direction: column;
+    }
+    footer{
+        padding:5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer div{
+        max-width: none;
+    }
+}
